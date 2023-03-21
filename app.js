@@ -55,7 +55,7 @@ app.post("/compose",function(req,res){
 });
 
 app.get("/:day",function(req,res){
-  const title = _.kebabCase(req.params.day);
+  const title = req.params.day;
   article.findOne({title:title}).then((results)=>{
     if(results==null){
       res.render("notfound")
