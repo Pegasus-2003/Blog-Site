@@ -1,0 +1,55 @@
+.webchat .bpw-conversation-container {
+    background-color: blue;
+  }
+
+  .webchat .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .webchat .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
+    background-color: #f0f0f0;
+  }
+
+  .webchat .bpw-header {
+    background-color: #007bff;
+    color: white;
+  }
+.bpw-layout {
+      background-color: blue;
+      height: 100px;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      z-index: 9999;
+    }
+
+    .bpw-header-title {
+      color: white;
+    }
+
+    .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
+      color: white;
+      background-color: #007bff;
+    }
+
+    .bpw-header-icon:hover {
+      fill: white;
+    }
+
+    .bpw-header-container {
+      border: none;
+      background-color: #007bff;
+      border-radius: 5px 5px 0 0;
+    }
+
+    .bpw-header-title-container .bpw-bot-avatar {
+      display: none;
+    }
+
+    .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
+      background-color: #f0f0f0;
+      border-radius: 5px;
+    }
